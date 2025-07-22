@@ -1,0 +1,343 @@
+
+*{
+    margin : 0;
+    padding : 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+body{
+    color: white;
+}
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px;
+    background: #081632;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+.logo{
+    position: relative;
+    font-size: 25px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+}
+.navbar a{
+    display: inline-block;
+    font-size: 25px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: .3s;
+}
+.navbar a:hover{
+    color: #0ef;
+} 
+body{
+    background: url(background.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.home{
+    position: relative;
+    width: 100%;;
+    justify-content: space-between;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 70px 10% 0;
+}
+.home-content{
+    max-width: 600px;
+}
+.home-content h3{
+    font-size: 30px;
+    font-weight: 700;
+
+}
+.home-content h1{
+    font-size: 56px;
+    font-weight: 700;
+    margin: -3px 0;
+}
+.home-content p{
+    font-size: 20px;
+}
+
+.container{
+    display: flex;
+}
+
+.home-sci a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid #0ef;
+    border-radius: 50%;
+    font-size: 20px;
+    color: #0ef;
+    text-decoration: none;
+    margin: 30px 15px 30px 0;
+}
+.home-sci a:hover{
+    background: #0ef;
+    color: black;
+    box-shadow: 0 0 20px #0ef;
+}
+.btn-box{
+    display: inline-block;
+    padding: 12px 28px;
+    background: #0ef;
+    font-size: 16px;
+    color : black;
+    letter-spacing: 1px;
+    text-decoration: none;
+    border-radius: 40px;
+    font-weight: 600;
+}
+.btn-box:hover{
+    box-shadow: 0 0 5px cyan,
+    0 0 25px cyan, 0 0 50px cyan,
+    0 0 100px cyan, 0 0 200px cyan
+}
+ .about{
+ display: grid;
+ grid-template-columns: repeat(2,1fr);
+ align-items: center;
+ gap: 1rem;
+ }
+.about-img img{
+    padding-bottom: 20%;
+    max-width: 630px;
+    height: auto;
+    width: 100%;
+    border-radius: 10px;
+}
+.about-text h2{
+    font-size: 60px;
+}
+.about-text h2 span{
+    color: #0ef;
+}
+.about-text h4{
+    font-size: 29px;
+    font-weight: 600;
+    color: #fff;
+    line-height: 1.7;
+    margin: 15px 0 30px;
+}
+.about-text p{
+    color:aliceblue;
+    font-size: 20px;
+    line-height: 1.4;
+    margin-bottom: 4rem;
+}
+
+.sub-title{
+    text-align: center;
+    font-size: 60px;
+    margin-top: 60px;
+    /* padding-bottom: 70px; */
+}
+.sub-title span{
+    color:#0ef
+}
+.content{
+    margin: 100px;
+    margin-right: 100px;
+    margin-left: 100px;
+    /* padding: 200px; */
+} 
+.skill-list{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,mimax(259px,1fr));
+    grid-gap:40px;
+}
+.skill-list .box{
+    background-color: transparent;
+    padding: 40px;
+    font-size: 13px;
+    font-weight: 13px;
+    border-right: 20px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 20px #012290f7,
+                1px 1px 40px #0053b8f7;                 
+}
+.skill-list .box:hover{
+    transform: translateY(-10px);
+}
+
+.box .text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-size: 20px;
+}
+.box .text h1{
+    font-size: 70px;
+}
+.box .text h1:hover{
+    color:#0ef;
+}
+.box .text h2:hover{
+    color: #0ef;
+}
+table{
+    width: 100%;
+    font-size: 20px;
+    border-collapse: collapse;
+    margin: 0,0;
+}
+th, td{
+    padding: 10px;
+    text-align: center;
+    border: 1px solid rgb(118, 116, 116);
+}
+th{
+    background-color:#0ef;
+    color: black;
+}
+th:hover{
+    background-color: #091f4c;
+    color:white;
+}
+tr:hover{
+    background-color: rgb(12, 12, 36);
+}
+
+
+
+.contact{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    gap:3rem;
+    padding-left: 30px;
+    margin-top: 130px;
+}
+.contact-text h2{
+    font-size: 80px;
+    line-height: 1;
+    text-align: center;
+    padding-bottom: 80px;
+    /* padding-left: 40%; */
+}
+.contact-text h2 span{
+    color:#0ef;
+}
+.contact-text h4{
+    margin: 15px 0;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+}
+.contact-text p{
+    color: rgb(177,177,177);
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 1rem;
+}
+.contact-list{
+    margin-bottom: 2rem;
+}
+.contact-list li{
+    margin-bottom:10px;
+    display: block;
+}
+.contact-list i{
+    display: inline-block;
+    color: #0ef;
+    transition: all .40s ease;
+}
+.contact-list li a:hover{
+    color:#0ef;
+}
+.contact-icons i{
+display: inline-flex;
+justify-content: center;
+align-items: center;
+width: 40px;
+height: 40px;
+background: transparent;
+border: 2px solid #0ef;
+border-radius: 50%;
+font-size: 20px;
+color: #0ef;
+text-decoration: none;
+/* margin: 30px 15px 30px 0; */
+margin-bottom: 10px;
+transition: .5s ease;
+/* opacity: 0; */
+}
+
+.contact-icons i:hover{
+    background: #0ef;
+    color: #000;
+    box-shadow: 0 0 20px #0ef;
+}
+
+.contact-form form{
+    position: relative;
+}
+.contact-form input,form textarea{
+  border: none;
+  outline: none;
+  width: 90%;
+  padding: 18px;
+  background: #555557;
+  color: #000;
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  border-radius: 0.5rem;
+}
+.contact-form textarea{
+    resize: none;
+    height: 220px;
+}
+.contact-form form .send{
+    
+    display: inline-block;
+    padding: 12px 28px;
+    background: #0ef;
+    font-size: 16px;
+    color : black;
+    letter-spacing: 1px;
+    text-decoration: none;
+    border-radius: 40px;
+    margin-top: 20px;
+    font-weight: 600;
+    box-shadow: 0 0 5px #0ef,
+                0 0 25px #0ef;
+}
+
+.contact-form form .send:hover{
+    box-shadow: 0 0 2px cyan,
+    0 0 10px cyan, 0 0 10px cyan,
+    0 0 25px cyan, 0 0 25px cyan
+}
+
+.top{
+    position: fixed;
+    bottom: 2.1rem;
+    right:2.1rem;   
+}
+
+.top i{
+     color: #000;
+     background: #0ef;
+     font-size: 20px;
+     padding: 10px;
+     border-radius: 0.5rem;
+}
